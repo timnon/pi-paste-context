@@ -13,9 +13,23 @@ A pi extension to add coding support to any editor by using the clipboard (aka C
 
 ## Installation
 
+### From npm
+
+After publishing, install it from npm with:
+
+```bash
+pi install npm:pi-paste-context
+```
+
+You can also pin a version:
+
+```bash
+pi install npm:pi-paste-context@0.1.1
+```
+
 ### From GitHub
 
-After you publish this repository to GitHub, install it with:
+For a local or unreleased checkout, install directly from the repo:
 
 ```bash
 pi install git:github.com/timnon/pi-paste-context
