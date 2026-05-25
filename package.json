@@ -1,0 +1,31 @@
+{
+  "name": "pi-paste-context",
+  "version": "0.1.0",
+  "description": "A pi extension that finds clipboard text in the current project and sends the matching file as context.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Tim",
+  "keywords": ["pi-package", "pi-extension", "clipboard", "context"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timnon/pi-paste-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timnon/pi-paste-context/issues"
+  },
+  "homepage": "https://github.com/timnon/pi-paste-context#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
