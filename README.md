@@ -1,6 +1,8 @@
-# pi-paste-context
+# pi-paste-context: add coding support to any editor
 
-A pi extension that searches the current project for the text in your clipboard, then sends the matching file and snippet into the conversation as context.
+![pi-paste-context screenshot](assets/pi-paste-context-screenshot.jpg)
+
+A pi extension to add coding support to any editor by using the clipboard (aka CTRL+C) for light integration. It searches the current project for the text in your clipboard, and then sends the matching file and snippet into the conversation as context, potentially with your instructions on top.
 
 ## What it does
 
@@ -64,27 +66,6 @@ The extension scans files in the current directory and ignores:
 - `node_modules/`
 
 It also skips files larger than 2 MB and binary files.
-
-## Publishing checklist
-
-Before publishing to GitHub, update these fields in `package.json`:
-
-- `author`
-- `repository`
-- `bugs`
-- `homepage`
-
-If you want a different license holder, also update `LICENSE`.
-
-## Development
-
-This extension is written in TypeScript and runs directly in pi without a build step.
-
-Files of interest:
-
-- `index.ts` — extension implementation
-- `package.json` — pi package metadata
-- `README.md` — usage and publishing notes
 
 ## License
 

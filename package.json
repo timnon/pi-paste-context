@@ -23,7 +23,8 @@
   "files": [
     "index.ts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "assets"
   ],
   "pi": {
     "extensions": ["./index.ts"]
